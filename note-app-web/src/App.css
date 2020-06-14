@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.row {
+  clear: both;
+  /* padding: 100px 0; */
+  /* line-height: 200px; */
+  text-align: center;
+  vertical-align: middle;
+  /* line-height: 1.5; */
+  /* display: inline-block; */
+  /* line-height: 200px; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-width: 2px;
+  margin: 20px;
+  
+}
+
+.square {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-color: thistle;
+}
+
+.notesTitle {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.app {
+  margin: 50px 50px; /* top and bottom margin is 50px, and automatically centered horizontally */
+}
+
+.todoForm {
+  clear: both;
+  float: left;
+  position: relative;
+}
+
+.todoForm textarea {
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todoForm select {
+  width: 150px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.todoForm textarea:focus, .todoForm select:focus, .todoForm button:focus {
+  outline: none;    /* there wont'be an outline when clicking the textarea box */
+}
+
+.todoForm button {
+  height: 23px;
+  width: 70px;  
+  background-color: rgba(125, 166, 243, 0.2);
+  border: 1px solid rgb(125, 166, 243);
+  border-width: 0.5px;
+  cursor: pointer;
+}
+
+.submit {
+  margin-top: 13px;
+}
+
+.cancel {
+  margin-left: 10px;
+}
+
+.left {
+  float: left;
+  margin-right: 15px;
+}
+
+label, textarea {
+  display: block;
+}
+
+.right {
+  float: right;
+  margin-left: 15px;
+}
+
+.yellow {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255,236,199,0.7);
+  border: 1px solid rgb(235, 215, 175);
+  float: left;
+  margin: 20px;
+  padding: 10px;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(238, 120, 149, 0.3);
+  border: 1px solid rgb(238, 120, 149);
+  float: left;
+  margin: 20px;
+  padding: 10px;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(145, 102, 202, 0.3);
+  border: 1px solid rgb(145, 102, 202);
+  float: left;
+  margin: 20px;
+  padding: 10px;
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(70, 143, 52, 0.3);
+  border: 1px solid rgb(70, 143, 52);
+  float: left;
+  margin: 20px;
+  padding: 10px;
+}
